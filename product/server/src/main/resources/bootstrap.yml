@@ -1,0 +1,20 @@
+#优先加载这个配置文件 product-dev.yml 会与product.yml合并
+spring:
+  application:
+    name: product
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        #配置服务的名称
+        service-id: CONFIG
+      #环境
+      profile: dev
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+
+server:
+  port: 8003
