@@ -31,7 +31,7 @@
         <product-client.version>0.0.1-SNAPSHOT</product-client.version>
         <order-common.version>0.0.1-SNAPSHOT</order-common.version>
         <logback-gelf.version>2.0.0</logback-gelf.version>
-		<swagger.version>2.9.2</swagger.version>
+		<swagger.version>2.10.0</swagger.version>
 	</properties>
 
 	<dependencyManagement>
